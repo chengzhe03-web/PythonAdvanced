@@ -13,7 +13,7 @@ def calc(a, b, op):
 
 
 def main():
-    print("add:", calc(10, 2, "add"))
+    print("add result:", calc(10, 2, "add"))
     print("sub:", calc(10, 2, "sub"))
     print("mul:", calc(10, 2, "mul"))
     print("div:", calc(10, 2, "div"))
