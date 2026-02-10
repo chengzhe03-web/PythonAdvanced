@@ -4,7 +4,7 @@ def calc(a, b, op):
     if op == "sub":
         return a - b
     if op == "mul":
-        return a * b
+        return a + b
     if op == "div":
         if b == 0:
             raise ZeroDivisionError("denominator cannot be zero")
